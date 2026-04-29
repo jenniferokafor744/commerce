@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+
+}
+.hero-text{
+  justify-content: center;
+  align-items: center;
+}
