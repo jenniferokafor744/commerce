@@ -1,11 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    text-decoration: none;
-
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:60px 10%;
+  background-color:#0b1120;
+  min-height: 100vh;
 }
-.hero-text{
+.hero-text {
+  flex: 1;
+}
+.hero-text h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #fff;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+.hero-image {
+  flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  height: auto;
+}
+.shop-now{
+  background-color: #007bff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
 }

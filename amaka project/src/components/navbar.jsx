@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">mingo</div>
+      <div className="logo">Amaka's</div>
       <ul className="nav-links">
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/contact">Contact</NavLink></li>
